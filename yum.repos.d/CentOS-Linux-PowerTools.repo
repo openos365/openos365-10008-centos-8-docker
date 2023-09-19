@@ -10,8 +10,8 @@
 
 [powertools]
 name=CentOS Linux $releasever - PowerTools
-mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=PowerTools&infra=$infra
-#baseurl=http://mirror.centos.org/$contentdir/$releasever/PowerTools/$basearch/os/
+#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=PowerTools&infra=$infra
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/PowerTools/$basearch/os/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial

@@ -10,8 +10,8 @@
 
 [fasttrack]
 name=CentOS Linux $releasever - FastTrack
-mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=fasttrack&infra=$infra
-#baseurl=http://mirror.centos.org/$contentdir/$releasever/fasttrack/$basearch/os/
+#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=fasttrack&infra=$infra
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/fasttrack/$basearch/os/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
