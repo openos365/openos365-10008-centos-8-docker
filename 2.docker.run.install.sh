@@ -8,4 +8,4 @@ cd $CMD_PATH
 
 docker pull openanolis/anolisos:8
 
-docker run -it -v ./:/code -w /code openanolis/anolisos:8 /code/files/install.sh
+docker run -i -v ./:/code -w /code openanolis/anolisos:8 /code/files/install.sh
