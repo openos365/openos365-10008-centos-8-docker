@@ -11,6 +11,11 @@ env
 whoami
 pwd
 
+sed -e 's|^mirrorlist=|#mirrorlist=|g' \
+         -e 's|^#baseurl=http://mirror.centos.org/centos|baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos|g' \
+         -i.bak \
+         /etc/yum.repos.d/CentOS-*.repo
+         
 yum update -y
 yum install epel-release -y
 yum install dnf -y
