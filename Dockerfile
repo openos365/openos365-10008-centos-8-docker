@@ -1,4 +1,4 @@
-FROM openeuler/openeuler:22.03-lts
+FROM openeuler/openeuler:latest
 
 # 1
 COPY files/ /tmp/files/

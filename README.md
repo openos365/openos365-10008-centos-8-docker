@@ -1,4 +1,4 @@
-# openos365-10005-openeuler-22-03-lts-docker
+# openos365-10006-openeuler-latest-docker
 
 
 ## 1 support
@@ -8,7 +8,7 @@
 
 ## 2 what
 
-* openos365-10005-openeuler-22-03-lts-docker docker images
+* openos365-10006-openeuler-latest-docker docker images
   
 ## 3 why (values)
 
@@ -23,6 +23,6 @@
 ## 4 how to use
 
 ```
-docker pull openos365/openos365-10005-openeuler-22-03-lts-docker-main:latest
-docker run -it openos365/openos365-10005-openeuler-22-03-lts-docker-main:latest bash
+docker pull openos365/openos365-10006-openeuler-latest-docker-main:latest
+docker run -it openos365/openos365-10006-openeuler-latest-docker-main:latest bash
 ```
