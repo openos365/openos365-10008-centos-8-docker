@@ -11,9 +11,9 @@ env
 whoami
 pwd
 
-yum update -y
-yum install epel-release -y
-yum install dnf -y
+# yum update -y
+# yum install epel-release -y
+# yum install dnf -y
 
 dnf --assumeyes update
 
