@@ -1,4 +1,4 @@
-FROM openeuler/openeuler:latest
+FROM centos:7
 
 # 1
 COPY files/ /tmp/files/
