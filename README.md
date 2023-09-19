@@ -1,8 +1,5 @@
-# 10002-anolisos-8-docker-base
+# openos365-10002-anolisos-8-docker
 
-## 0 status
-
-[![ci](https://github.com/archlinux365/10002-anolisos-8-docker-base/actions/workflows/ci.yml/badge.svg)](https://github.com/archlinux365/10002-anolisos-8-docker-base/actions/workflows/ci.yml) [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10002-anolisos-8-docker-base-main.svg)](https://hub.docker.com/r/gnuhub/10002-anolisos-8-docker-base-main/)
 
 ## 1 support
 
@@ -11,21 +8,21 @@
 
 ## 2 what
 
-* openeuler-2203-lts docker base images
-
+* openos365-10002-anolisos-8-docker docker images
+  
 ## 3 why (values)
 
-1. change repo mirror
-1. pr-install some packages
-1. pre-config
-1. networking problems
-1. save time
-1. track repo update using versions
-1. publish yum.repo.d
+1. setup repo mirror for China `files/install.sh`
+1. pr-install some packages `files/install.sh`
+1. pre-config `file/root/`
+1. networking problems `using github actions network`
+1. save install and update time `build it using schedule actions`
+1. publish and track `versions` changes
+1. publish and track `yum.repo.d`
 
 ## 4 how to use
 
 ```
-docker pull gnuhub/10002-anolisos-8-docker-base-main:latest
-docker run -it gnuhub/10002-anolisos-8-docker-base-main:latest bash
+docker pull openos365/openos365-10002-anolisos-8-docker-main:latest
+docker run -it openos365/openos365-10002-anolisos-8-docker-main:latest bash
 ```
