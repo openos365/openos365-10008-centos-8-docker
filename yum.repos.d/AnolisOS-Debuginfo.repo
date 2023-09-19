@@ -1,0 +1,35 @@
+[AppStream-debuginfo]
+name=AnolisOS-$releasever - AppStream Debuginfo
+baseurl=https://mirrors.openanolis.cn/anolis/$releasever/AppStream/$basearch/debug
+enabled=0
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+gpgcheck=1
+
+[BaseOS-debuginfo]
+name=AnolisOS-$releasever - BaseOS Debuginfo
+baseurl=https://mirrors.openanolis.cn/anolis/$releasever/BaseOS/$basearch/debug
+enabled=0
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+gpgcheck=1
+
+[Plus-debuginfo]
+name=AnolisOS-$releasever - Plus Debuginfo
+baseurl=https://mirrors.openanolis.cn/anolis/$releasever/Plus/$basearch/debug
+enabled=0
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+gpgcheck=1
+          
+[PowerTools-debuginfo]
+name=AnolisOS-$releasever - PowerTools Debuginfo
+baseurl=https://mirrors.openanolis.cn/anolis/$releasever/PowerTools/$basearch/debug
+enabled=0
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+gpgcheck=1
+
+
+[DDE-debuginfo]
+name=AnolisOS-$releasever - DDE Debuginfo
+baseurl=https://mirrors.openanolis.cn/anolis/$releasever/DDE/$basearch/debug
+enabled=0
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+gpgcheck=1

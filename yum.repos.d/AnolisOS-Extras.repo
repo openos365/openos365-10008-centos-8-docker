@@ -1,0 +1,6 @@
+[Extras]
+name=AnolisOS-$releasever - Extras
+baseurl=http://mirrors.openanolis.cn/anolis/$releasever/Extras/$basearch/os
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ANOLIS
+gpgcheck=1

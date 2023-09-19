@@ -1,0 +1,6 @@
+[DDE]
+name=AnolisOS-$releasever - DDE
+baseurl=http://mirrors.openanolis.cn/anolis/$releasever/DDE/$basearch/os
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ANOLIS
+gpgcheck=1
