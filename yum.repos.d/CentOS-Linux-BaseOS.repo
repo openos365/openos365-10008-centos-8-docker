@@ -10,7 +10,7 @@
 
 [baseos]
 name=CentOS Linux $releasever - BaseOS
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=BaseOS&infra=$infra
+mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=BaseOS&infra=$infra
 #baseurl=http://mirror.centos.org/$contentdir/$releasever/BaseOS/$basearch/os/
 gpgcheck=1
 enabled=1

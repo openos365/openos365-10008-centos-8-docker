@@ -10,7 +10,7 @@
 
 [extras]
 name=CentOS Linux $releasever - Extras
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras&infra=$infra
+mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras&infra=$infra
 #baseurl=http://mirror.centos.org/$contentdir/$releasever/extras/$basearch/os/
 gpgcheck=1
 enabled=1
