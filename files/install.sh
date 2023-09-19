@@ -11,7 +11,7 @@ env
 whoami
 pwd
 
-sudo sed -e 's|^mirrorlist=|#mirrorlist=|g' \
+sed -e 's|^mirrorlist=|#mirrorlist=|g' \
          -e 's|^#baseurl=http://mirror.centos.org/$contentdir|baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos|g' \
          -i.bak \
          /etc/yum.repos.d/CentOS-*.repo
