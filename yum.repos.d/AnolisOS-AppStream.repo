@@ -1,0 +1,6 @@
+[AppStream]
+name=AnolisOS-$releasever - AppStream
+baseurl=http://mirrors.openanolis.cn/anolis/$releasever/AppStream/$basearch/os
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ANOLIS
+gpgcheck=1

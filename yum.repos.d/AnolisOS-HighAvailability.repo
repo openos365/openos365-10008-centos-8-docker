@@ -1,0 +1,6 @@
+[HighAvailability]
+name=AnolisOS-$releasever - HighAvailability
+baseurl=http://mirrors.openanolis.cn/anolis/$releasever/HighAvailability/$basearch/os
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ANOLIS
+gpgcheck=1

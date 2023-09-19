@@ -1,0 +1,6 @@
+[kernel-5.10]
+name=AnolisOS-$releasever - Kernel 5.10
+baseurl=http://mirrors.openanolis.cn/anolis/$releasever/kernel-5.10/$basearch/os
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ANOLIS
+gpgcheck=1

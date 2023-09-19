@@ -1,0 +1,35 @@
+[AppStream-source]
+name=AnolisOS-$releasever - AppStream Source
+baseurl=https://mirrors.openanolis.cn/anolis/$releasever/AppStream/source/
+enabled=0
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+gpgcheck=1
+
+[BaseOS-source]
+name=AnolisOS-$releasever - BaseOS Source
+baseurl=https://mirrors.openanolis.cn/anolis/$releasever/BaseOS/source/
+enabled=0
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+gpgcheck=1
+
+[Plus-source]
+name=AnolisOS-$releasever - Plus Source
+baseurl=https://mirrors.openanolis.cn/anolis/$releasever/Plus/source/
+enabled=0
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+gpgcheck=1
+          
+[PowerTools-source]
+name=AnolisOS-$releasever - PowerTools Source
+baseurl=https://mirrors.openanolis.cn/anolis/$releasever/PowerTools/source/
+enabled=0
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+gpgcheck=1
+
+
+[DDE-source]
+name=AnolisOS-$releasever - DDE Source
+baseurl=https://mirrors.openanolis.cn/anolis/$releasever/DDE/source/
+enabled=0
+gpgkey=https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+gpgcheck=1
